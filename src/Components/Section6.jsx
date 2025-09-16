@@ -1,5 +1,6 @@
 import React from "react";
 import Grid from "./Grid";
+import Btn from "./Btn";
 
 const Section6 = () => {
   return (
@@ -43,12 +44,7 @@ const Section6 = () => {
             Happy Customers
           </div>
         </div>
-
-        <div className="div-btn">
-          <button className="btn btn-dark m-1" type="submit">
-            Schedule a Demo <i className="bi bi-arrow-up-right"></i>{" "}
-          </button>
-        </div>
+        <Btn text={"Schedule a Demo"} />
       </div>
       <Grid />
     </div>

@@ -1,5 +1,6 @@
 import React from "react";
 import Logo from "../assets/Pictures/Logo.png";
+import Btn from "./Btn";
 
 const Nav = () => {
   return (
@@ -80,9 +81,7 @@ const Nav = () => {
               <button className="btn m-1" type="submit">
                 Get Started
               </button>
-              <button className="btn btn-dark m-1" type="submit">
-                Book a Demo <i className="bi bi-arrow-up-right"></i>{" "}
-              </button>
+              <Btn text={"Book a Demo"} />
             </form>
           </div>
         </div>

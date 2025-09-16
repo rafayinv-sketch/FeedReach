@@ -52,10 +52,10 @@ const Grid = () => {
             2000+ Reviews
           </p>
 
-          <img src={People} alt="people" style={{ width: "150px" }} />
+          <img src={People} alt="people" style={{ width: "180px" }} />
         </div>
 
-        {/* Columns 2–4 */}
+        {/* Columns 2,3,4 */}
         {reviews.map((review, index) => (
           <div
             key={index}
