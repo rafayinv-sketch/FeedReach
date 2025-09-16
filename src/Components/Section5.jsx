@@ -2,6 +2,7 @@ import React from "react";
 import Lightning from "../assets/Pictures/Lightning.png";
 import SectionTag from "./SectionTag";
 import Nav2 from "./Nav2";
+import Dashboard from "./Dashboard";
 
 const Section5 = () => {
   return (
@@ -36,9 +37,7 @@ const Section5 = () => {
         </div>
       </div>
       <Nav2 />
-      <div>
-        <p>Lorem ipsum dolor sit amet.</p>
-      </div>
+      <Dashboard />
     </div>
   );
 };

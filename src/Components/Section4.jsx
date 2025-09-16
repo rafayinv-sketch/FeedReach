@@ -27,17 +27,6 @@ const Section4 = () => {
           Growth
         </div>
       </div>
-
-      <div className="row">
-        <div className="col-3 bg-dark">1</div>
-        <div className="col-3 bg-light">2</div>
-        <div className="col-3 bg-primary">3</div>
-        <div className="col-3 bg-secondary">4</div>
-        <div className="col-3 bg-secondary">5</div>
-        <div className="col-3 bg-primary">6</div>
-        <div className="col-3 bg-light">7</div>
-        <div className="col-3 bg-dark">8</div>
-      </div>
     </div>
   );
 };
