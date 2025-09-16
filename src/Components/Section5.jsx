@@ -40,7 +40,7 @@ const Section5 = () => {
                     <a class="nav-link" href="/">Listening</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/">Advocacy</a>
+                    <a class="nav-link" href="/">abcd</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/">Influencer Marketing</a>
