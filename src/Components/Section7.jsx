@@ -1,52 +1,24 @@
 import React from "react";
+import Table from "./Table";
+import CTAbanner1 from "./CTAbanner1";
 
 const Section7 = () => {
   return (
     <div className="section7">
       <div className="d-flex flex-column justify-content-center align-items-center text-center">
         <div
-          className="heading w-75"
+          className="heading w-75 mt-5"
           style={{
             fontFamily: "Montserrat Alternates, sans-serif",
-            fontWeight: 500,
+            fontWeight: 600,
             fontStyle: "normal",
             fontSize: "40px",
           }}
         >
           Why Choose Feadreach
         </div>
-        <div className="table w-50 bg-light border border-secondary rounded-4 d-flex flex-row justify-content-between p-2">
-          <div>
-            <p>Features</p>
-            <p>
-              Affordable, High-Quality Service <hr />
-            </p>
-
-            <p>
-              Transparent and Reliable <hr />
-            </p>
-            <p>
-              Flexible Plans <hr />
-            </p>
-            <p>Human-Driven Creativity</p>
-          </div>
-          <div>
-            <p>Traditional Alternative</p>
-            <p>
-              <i class="bi bi-check2-circle text-danger"></i> <hr />
-            </p>
-
-            <p>
-              <i class="bi bi-check2-circle text-danger"></i> <hr />
-            </p>
-            <p>
-              <i class="bi bi-check2-circle text-danger"></i> <hr />
-            </p>
-            <p>
-              <i class="bi bi-check2-circle text-danger"></i>
-            </p>
-          </div>
-        </div>
+        <Table />
+        <CTAbanner1 />
       </div>
     </div>
   );

@@ -60,10 +60,10 @@ const Grid = () => {
           <div
             key={index}
             className="col-md-3 col-12 border-start border-secondary d-flex flex-column align-items-start justify-content-center py-3"
-            style={{ fontWeight: 400, fontSize: "15px" }}
+            style={{ fontWeight: 500, fontSize: "15px" }}
           >
             <h5>{review.title}</h5>
-            <p>{review.text}</p>
+            <p style={{ fontWeight: 300, fontSize: "12px" }}>{review.text}</p>
             <p>
               <strong>{review.author}</strong>
             </p>
