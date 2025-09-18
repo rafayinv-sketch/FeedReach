@@ -48,8 +48,8 @@ const Footer = () => {
         <hr className="w-75 m-auto mt-5" />
         <div className="w-75 m-auto mt-5">
           {" "}
-          <div class="row align-items-center">
-            <div class="col text-start">
+          <div class="row align-items-start">
+            <div class="col align-items-center text-start">
               <img src={LogoWhite} alt="..." style={{ width: "110px" }} />
               <p
                 className="mt-3"
@@ -71,7 +71,8 @@ const Footer = () => {
                 Schedule a Demo <i className="bi bi-arrow-up-right"></i>
               </button>
             </div>
-            <div class="col text-start">
+
+            <div class="col text-start ms-5">
               <div
                 style={{
                   fontFamily: "proxima-nova, sans-serif",
@@ -81,7 +82,7 @@ const Footer = () => {
                   margin: 0,
                 }}
               >
-                Menu
+                <p>Menu</p>
               </div>
               <div
                 className="text-start mt-2 ms-2"
@@ -109,17 +110,17 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div class="col text-start">
+
+            <div class="col text-start ms-5">
               <div
                 style={{
                   fontFamily: "proxima-nova, sans-serif",
                   fontWeight: 600,
                   fontStyle: "normal",
                   fontSize: "15px",
-                  margin: 0,
                 }}
               >
-                Services
+                <p>Services</p>
               </div>
               <div
                 className="text-start mt-2 ms-2"
@@ -128,7 +129,6 @@ const Footer = () => {
                   fontWeight: 300,
                   fontStyle: "normal",
                   fontSize: "10px",
-                  margin: 0,
                 }}
               >
                 <ul
@@ -145,7 +145,7 @@ const Footer = () => {
                 </ul>
               </div>
             </div>
-            <div class="col text-start">
+            <div class="col text-start ms-5">
               <div
                 style={{
                   fontFamily: "proxima-nova, sans-serif",
@@ -155,7 +155,7 @@ const Footer = () => {
                   margin: 0,
                 }}
               >
-                Compare
+                <p>Compare</p>
               </div>
               <div
                 className="text-start mt-2 ms-2"
