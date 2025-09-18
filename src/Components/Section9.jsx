@@ -21,26 +21,43 @@ const Section9 = () => {
           />
         </div>
 
-        <div
-          className="ms-4"
-          style={{
-            fontFamily: "Montserrat Alternates, sans-serif",
-            fontStyle: "normal",
-          }}
-        >
-          <p style={{ fontWeight: 300, fontSize: "0.625rem" }}>DESIGN</p>
+        <div className="ms-4" style={{}}>
+          <p
+            style={{
+              fontFamily: "Montserrat Alternates, sans-serif",
+              fontStyle: "normal",
+              fontWeight: 300,
+              fontSize: "0.625rem",
+            }}
+          >
+            DESIGN
+          </p>
 
-          <p style={{ fontWeight: 500, fontSize: "1.5625rem" }}>
+          <p
+            style={{
+              fontFamily: "Montserrat Alternates, sans-serif",
+              fontStyle: "normal",
+              fontWeight: 500,
+              fontSize: "1.5625rem",
+            }}
+          >
             The Most complete Set of Publishing Integrations, ever
           </p>
 
-          <p style={{ fontWeight: 400, fontSize: "0.625rem" }}>
+          <p
+            style={{
+              fontFamily: "Montserrat Alternates, sans-serif",
+              fontStyle: "normal",
+              fontWeight: 400,
+              fontSize: "0.625rem",
+            }}
+          >
             Lorem ipsum dolor sit amet consectetur. Varius egestas orci eu nulla
             non. Neque nulla adipiscing senectus volutpat tristique urna. Tortor
             enim non et suscipit nunc semper mauris at nunc.
           </p>
 
-          <Btn text="Learn More" />
+          <Btn text="Learn More" size="sm" />
 
           <div
             className="mt-3"
@@ -75,26 +92,43 @@ const Section9 = () => {
           />
         </div>
 
-        <div
-          className="ms-4"
-          style={{
-            fontFamily: "Montserrat Alternates, sans-serif",
-            fontStyle: "normal",
-          }}
-        >
-          <p style={{ fontWeight: 300, fontSize: "0.625rem" }}>CONTENT</p>
+        <div className="me-4" style={{}}>
+          <p
+            style={{
+              fontFamily: "Montserrat Alternates, sans-serif",
+              fontStyle: "normal",
+              fontWeight: 300,
+              fontSize: "0.625rem",
+            }}
+          >
+            CONTENT
+          </p>
 
-          <p style={{ fontWeight: 500, fontSize: "1.5625rem" }}>
+          <p
+            style={{
+              fontFamily: "Montserrat Alternates, sans-serif",
+              fontStyle: "normal",
+              fontWeight: 500,
+              fontSize: "1.5625rem",
+            }}
+          >
             The Most complete Set of Publishing Integrations, ever
           </p>
 
-          <p style={{ fontWeight: 400, fontSize: "0.625rem" }}>
+          <p
+            style={{
+              fontFamily: "Montserrat Alternates, sans-serif",
+              fontStyle: "normal",
+              fontWeight: 400,
+              fontSize: "0.625rem",
+            }}
+          >
             Lorem ipsum dolor sit amet consectetur. Varius egestas orci eu nulla
             non. Neque nulla adipiscing senectus volutpat tristique urna. Tortor
             enim non et suscipit nunc semper mauris at nunc.
           </p>
 
-          <Btn text="Learn More" />
+          <Btn text="Learn More" size="sm" />
 
           <div
             className="mt-3"
@@ -125,24 +159,40 @@ const Section9 = () => {
               style={{ background: "#FFD88A" }}
             >
               {/* Content */}
-              <div
-                style={{
-                  fontFamily: "Montserrat Alternates, sans-serif",
-                  fontStyle: "normal",
-                }}
-              >
-                <p style={{ fontWeight: 300, fontSize: "0.625rem" }}>
+              <div>
+                <p
+                  style={{
+                    fontFamily: "Montserrat Alternates, sans-serif",
+                    fontStyle: "normal",
+                    fontWeight: 300,
+                    fontSize: "0.625rem",
+                  }}
+                >
                   SCHEDULE
                 </p>
-                <p style={{ fontWeight: 500, fontSize: "1.5625rem" }}>
+                <p
+                  style={{
+                    fontFamily: "Montserrat Alternates, sans-serif",
+                    fontStyle: "normal",
+                    fontWeight: 500,
+                    fontSize: "1.5625rem",
+                  }}
+                >
                   The Most complete Set of Publishing Integrations, ever
                 </p>
-                <p style={{ fontWeight: 400, fontSize: "0.625rem" }}>
+                <p
+                  style={{
+                    fontFamily: "Montserrat Alternates, sans-serif",
+                    fontStyle: "normal",
+                    fontWeight: 400,
+                    fontSize: "0.625rem",
+                  }}
+                >
                   Lorem ipsum dolor sit amet consectetur. Varius egestas orci eu
                   nulla non. Neque nulla adipiscing senectus volutpat tristique
                   urna.
                 </p>
-                <Btn text="Learn More" />
+                <Btn text="Learn More" size="sm" />
               </div>
 
               {/* Image */}
@@ -151,7 +201,7 @@ const Section9 = () => {
                   className="rounded-4 img-fluid"
                   src={Post3}
                   alt="Post"
-                  style={{ width: "100%", height: "19rem", objectFit: "cover" }}
+                  style={{ width: "100%", height: "19rem", objectFit: "fill" }}
                 />
               </div>
             </div>
@@ -164,22 +214,40 @@ const Section9 = () => {
               style={{ background: "#B0EC9C" }}
             >
               {/* Content */}
-              <div
-                style={{
-                  fontFamily: "Montserrat Alternates, sans-serif",
-                  fontStyle: "normal",
-                }}
-              >
-                <p style={{ fontWeight: 300, fontSize: "0.625rem" }}>CREATE</p>
-                <p style={{ fontWeight: 500, fontSize: "1.5625rem" }}>
+              <div>
+                <p
+                  style={{
+                    fontFamily: "Montserrat Alternates, sans-serif",
+                    fontStyle: "normal",
+                    fontWeight: 300,
+                    fontSize: "0.625rem",
+                  }}
+                >
+                  CREATE
+                </p>
+                <p
+                  style={{
+                    fontFamily: "Montserrat Alternates, sans-serif",
+                    fontStyle: "normal",
+                    fontWeight: 500,
+                    fontSize: "1.5625rem",
+                  }}
+                >
                   The Most complete Set of Publishing Integrations, ever
                 </p>
-                <p style={{ fontWeight: 400, fontSize: "0.625rem" }}>
+                <p
+                  style={{
+                    fontFamily: "Montserrat Alternates, sans-serif",
+                    fontStyle: "normal",
+                    fontWeight: 400,
+                    fontSize: "0.625rem",
+                  }}
+                >
                   Lorem ipsum dolor sit amet consectetur. Varius egestas orci eu
                   nulla non. Neque nulla adipiscing senectus volutpat tristique
                   urna.
                 </p>
-                <Btn text="Learn More" />
+                <Btn text="Learn More" size="sm" />
               </div>
 
               {/* Image */}
@@ -188,7 +256,7 @@ const Section9 = () => {
                   className="rounded-4 img-fluid"
                   src={Post4}
                   alt="Post"
-                  style={{ width: "100%", height: "19rem", objectFit: "cover" }}
+                  style={{ width: "100%", height: "19rem", objectFit: "fill" }}
                 />
               </div>
             </div>

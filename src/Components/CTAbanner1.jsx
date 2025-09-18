@@ -12,15 +12,18 @@ const CTAbanner1 = () => {
         />
       </div>
       <div className="txt text-start d-block justify-content-center align-items-center">
-        <div
-          style={{
-            fontFamily: "Montserrat Alternates, sans-serif",
-            fontWeight: 400,
-            fontStyle: "normal",
-            fontSize: "20px",
-          }}
-        >
-          <p className="mb-0">Why Settle for Less? Choose Feedreach.</p>
+        <div>
+          <p
+            style={{
+              fontFamily: "Montserrat Alternates, sans-serif",
+              fontWeight: 400,
+              fontStyle: "normal",
+              fontSize: "20px",
+            }}
+            className="mb-0"
+          >
+            Why Settle for Less? Choose Feedreach.
+          </p>
         </div>
         <div
           className="w-75"
@@ -38,7 +41,7 @@ const CTAbanner1 = () => {
         </div>
       </div>
       <div className="me-3">
-        <Btn text={"Sign Up Today"} />
+        <Btn text={"Sign Up Today"} size="sm" />
       </div>
     </div>
   );

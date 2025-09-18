@@ -13,12 +13,12 @@ const Section10 = () => {
             fontSize: "20px",
           }}
         >
-          <p className="mb-0">
+          <p className="mb-0 ms-4">
             Connect your <br /> favorite accounts
           </p>
         </div>
       </div>
-      <div className="me-3">
+      <div className="me-4">
         <img
           src={SM_icons}
           alt="..."
